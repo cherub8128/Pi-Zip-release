@@ -1,0 +1,76 @@
+Pi Zip 무료 사용 독점 소프트웨어 이용허락
+버전 1.0 · 2026-09-28
+
+Copyright (c) 2026 Pi-Dimension. All rights reserved.
+
+1. 무료 사용 허용
+Pi-Dimension은 공식 배포처에서 받은 Pi Zip 실행 프로그램(앱, 명령줄 도구 piz,
+웹 버전)을 개인, 교육, 비영리 및 회사·기관의 업무용으로 무료 설치하고 사용할
+수 있는 비독점적 이용권을 부여합니다. 허용된 사용에 필요한 기기 내 복제와
+백업, 동일 조직이 관리하는 기기에 대한 내부 설치·배포도 허용합니다.
+이 허락에 사용 기간이나 기기 수 제한은 없습니다.
+
+2. 소유권 및 소스
+Pi Zip 자체 코드, 압축 알고리즘과 그 구현, .piz 형식의 설계 문서, 디자인,
+이름과 원본 아이콘의 권리는 저작권자에게 남습니다. 이 약관은 Pi Zip 자체
+소스의 공개, 수정, 재라이선스 또는 소유권 이전을 허락하지 않습니다. 소스
+저장소에 접근할 수 있다는 사실만으로 별도 이용권이 생기지 않습니다.
+
+3. 판매 및 외부 재배포 제한
+별도 서면 허락 없이 Pi Zip 자체를 판매·대여·재판매하거나 유료 상품에 묶어
+판매할 수 없습니다. Pi Zip의 코덱이나 라이브러리를 다른 제품에 넣어 배포하려면
+별도의 상용 라이선스가 필요합니다. 공식 설치 파일의 외부 미러링·재업로드,
+수정본이나 재포장본의 외부 배포도 허용하지 않습니다. 공식 다운로드 페이지의
+링크를 공유하는 것은 허용합니다. 저작권 및 라이선스 고지를 제거하지 마세요.
+이는 1항의 정상적인 업무용 사용과 내부 설치를 금지하지 않습니다.
+
+4. 만든 아카이브
+Pi Zip으로 만든 아카이브(.piz를 포함한 모든 형식)는 사용자가 자유롭게 보관,
+전송, 배포할 수 있으며, 그 사용에 Pi-Dimension의 허락이나 비용이 필요하지
+않습니다. 아카이브에 담긴 내용의 권리는 원래 권리자에게 있습니다.
+
+5. 제3자 구성요소와 법률상 권리
+Pi Zip은 퍼미시브 라이선스(MIT, Apache-2.0, BSD, Zlib 등)의 오픈소스 구성요소만
+사용합니다. 이 구성요소에는 원래 라이선스가 우선 적용되며, 위 제한은 그
+라이선스가 보장하는 사용, 수정, 역공학, 복제, 재배포 또는 소스 접근 권리를
+축소하지 않습니다. 목록과 전문은 THIRD_PARTY_NOTICES.md에 있습니다. 강행 법규가
+보장하는 권리도 제한하지 않습니다.
+
+6. 보증 및 책임
+프로그램은 현 상태로 제공됩니다. 적용 법률이 허용하는 범위에서 특정 목적에
+대한 적합성, 무오류 동작, 데이터 손실이 없음, 지속적인 업데이트·지원은 보증하지
+않습니다. 중요한 데이터는 풀어서 확인한 뒤 원본을 지우세요. 같은 범위에서
+사용 또는 사용 불능으로 인한 손해에 대한 책임을 제한합니다. 법률상 배제하거나
+제한할 수 없는 책임에는 이 조항이 적용되지 않습니다.
+
+7. 적용 및 문의
+이 약관은 함께 배포된 Pi Zip 버전에 적용됩니다. 향후 약관 변경이 이미 배포된
+버전의 이용허락을 소급하여 축소하지 않습니다. 중대한 약관 위반 시 해당 위반
+사용에 대한 이용허락은 종료될 수 있습니다.
+상용 라이선스·재배포 문의: https://github.com/cherub8128/Pi-Zip-Releases/issues
+
+----------------------------------------------------------------------
+
+Pi Zip Freeware Proprietary License
+Version 1.0 · 2026-09-28
+
+Copyright (c) 2026 Pi-Dimension. All rights reserved.
+
+1. Free use. You may install and use official Pi Zip binaries free of charge
+   for personal, educational, non-profit and business purposes, including
+   internal deployment within your organization.
+2. Ownership. Pi Zip's code, compression algorithms and their implementation,
+   the .piz format design documents, design, name and icons remain the property
+   of the copyright holder. No right to the source code is granted.
+3. No resale or redistribution. You may not sell, rent or bundle Pi Zip, embed
+   its codec or libraries in another product, or redistribute modified or
+   repackaged copies without a separate written (commercial) license. Linking
+   to the official download page is allowed.
+4. Your archives. Archives you create with Pi Zip, in any format including
+   .piz, are yours to store, transmit and distribute without permission or fee.
+5. Third-party components are used only under permissive licenses (MIT,
+   Apache-2.0, BSD, Zlib, ...) and remain governed by those licenses; see
+   THIRD_PARTY_NOTICES.md. Nothing here limits rights granted by them or by law.
+6. No warranty. The software is provided "as is", to the extent permitted by
+   law, without warranty of any kind and without liability for damages.
+7. Commercial licensing: https://github.com/cherub8128/Pi-Zip-Releases/issues
