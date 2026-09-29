@@ -1,3 +1,5 @@
+**Pi-Dimension 앱** — [Pi Image (이미지·만화 뷰어)](https://github.com/cherub8128/Pi-Image-Releases) · [Pi Player (동영상·음악 플레이어)](https://github.com/cherub8128/Pi-Player-Releases) · [Pi Zip (압축)](https://github.com/cherub8128/Pi-Zip-release) · [Pi PDF (PDF 편집)](https://github.com/cherub8128/Pi-PDF-releases)
+
 # Pi Zip
 
 ![Pi Zip](assets/icon.png)
@@ -14,6 +16,7 @@
 - 복구 레코드(리드-솔로몬)로 일부 손상된 아카이브 되살리기
 - 풀 때 위험한 경로·압축 폭탄을 막고, 기본은 덮어쓰지 않음
 - 읽기: .piz, ZIP, 7z, RAR(5.0·2.9~4.x, 자체 해제기), tar, gz, bz2, xz, zst, lz4 · 쓰기: RAR을 뺀 모두
+- 새 버전 알림: 바뀐 내용을 보여 주고 버튼 하나로 받아서 설치(설정에서 끌 수 있음)
 - Noto Sans 글꼴 내장, 밝은·어두운 화면
 
 ## 얼마나 작고 빠른가요?
@@ -50,6 +53,12 @@ Mac·Linux·Android 버전은 시험 배포이며 해당 운영체제의 실행 
 Linux 버전은 WebKitGTK 4.1(`libwebkit2gtk-4.1-0`)과 GTK 3이 필요합니다. deb·rpm은 설치할 때 함께 설치합니다. AppImage의 일반 실행에는 FUSE와 fusermount가 필요합니다. FUSE를 사용할 수 없다면 `./Pi-Zip-0.12.1-linux-x64.AppImage --appimage-extract-and-run`으로 실행할 수 있습니다.
 
 Android에서는 **압축 파일 열기**나 **파일 묶기**로 파일을 고르세요. 결과는 **다운로드/Pi Zip** 폴더에 저장합니다(Android 10 이하에서는 앱 전용 폴더). 폴더 통째로 묶기와 저장 위치 고르기는 Android에서 지원하지 않습니다.
+
+## Pi-Dimension의 다른 앱
+
+- [Pi Image](https://github.com/cherub8128/Pi-Image-Releases) — 만화와 이미지를 편안하게 읽고, 원하는 크기와 배치로 인쇄하는 이미지·만화 뷰어
+- [Pi Player](https://github.com/cherub8128/Pi-Player-Releases) — 내 컴퓨터의 동영상과 음악을 모아 보고, 보던 곳에서 이어 재생하는 플레이어
+- [Pi PDF](https://github.com/cherub8128/Pi-PDF-releases) — 페이지를 정리하고, PDF 안에 이미 있는 텍스트를 직접 고치는 PDF 편집기
 
 ## 이용 안내
 
