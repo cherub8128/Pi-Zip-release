@@ -72,6 +72,30 @@
 - **macOS** — 파일 선택 → `정보 가져오기` → `다음으로 열기`에서 Pi Zip → `모두 변경`
 - **Linux** — 파일 관리자의 `다른 프로그램으로 열기`에서 Pi Zip 선택
 
+## 명령줄 도구 `piz` (CLI)
+
+앱과 같은 엔진의 명령줄 도구입니다. 스크립트나 AI 에이전트에서 쓰기 좋습니다(진행 표시는 stderr, 결과는 stdout, 실패 시 종료 코드 2, 비밀번호 오류는 3).
+
+```sh
+# Linux(x64·arm64, 정적 링크라 배포판 상관없음) · macOS
+curl -fsSL https://raw.githubusercontent.com/cherub8128/Pi-Zip-release/main/install.sh | sh
+```
+
+```powershell
+# Windows(x64·arm64), 관리자 권한 필요 없음
+irm https://raw.githubusercontent.com/cherub8128/Pi-Zip-release/main/install.ps1 | iex
+```
+
+직접 받으려면 릴리스의 `piz-linux-x64.tar.gz` · `piz-linux-arm64.tar.gz` · `piz-mac-universal.tar.gz` · `piz-windows-x64.zip` · `piz-windows-arm64.zip`(체크섬 `piz-SHA256SUMS.txt`).
+
+```sh
+piz a backup.piz ~/project -l 9      # 만들기(.piz .zip .7z .tar.zst … 확장자로 형식 결정)
+piz x backup.piz -o out              # 풀기(zip·7z·rar·tar 등도)
+piz l backup.piz                     # 목록
+piz t backup.piz                     # 검사
+PIZ_PASSWORD=… piz a s.piz dir -p    # 암호화(스크립트에서는 환경 변수)
+```
+
 ## 지원 형식
 
 | 형식 | 풀기 | 묶기 |
