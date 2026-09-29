@@ -23,6 +23,7 @@
 
 ## 주요 기능
 
+- **우클릭으로 빠르게 풀기** — 압축 파일을 우클릭해 바로 풉니다. 맨 위가 폴더 하나면 그대로, 아니면 압축 파일 이름의 폴더에 알아서 감싸 풉니다(Windows 탐색기·macOS Finder·Linux Nautilus·Dolphin·Nemo)
 - **더 작게** — 자체 코덱과 `.piz` 형식. 기본 레벨 7이 7-Zip 보통보다 6%, 레벨 8이 7-Zip 최고보다 2%, 레벨 9가 3.7% 작습니다(아래 표)
 - **이미 압축된 파일도 한 번 더** — JPEG·PNG·PDF·ZIP 계열(docx·xlsx·jar)·gzip 안의 데이터를 되살려 다시 압축하고, 원본과 바이트 단위로 같은지 확인한 뒤에만 씁니다
 - **중복 제거와 똑똑한 배치** — 아카이브 전체에서 같은 내용을 한 번만 담고, 내용이 비슷한 파일끼리 모아 압축합니다
@@ -55,6 +56,15 @@
 - **macOS** — Apple 공증을 받지 않은 ad-hoc 서명입니다. 처음 한 번은 Finder에서 앱을 **우클릭 → 열기**하거나, 시스템 설정 → 개인정보 보호 및 보안에서 `그래도 열기`를 누르세요.
 - **Linux** — deb는 `sudo apt install ./Pi-Zip-*-linux-x64.deb`, rpm은 `sudo dnf install ./Pi-Zip-*-linux-x64.rpm`. WebKitGTK 4.1과 GTK 3이 필요합니다. AppImage는 FUSE가 필요하며, 없으면 `--appimage-extract-and-run`으로 실행할 수 있습니다.
 - **Android** — 설정에서 브라우저(또는 파일 앱)의 "출처를 알 수 없는 앱 설치"를 허용한 뒤 APK를 여세요. **압축 파일 열기**나 **파일 묶기**로 시작하며, 결과는 **다운로드/Pi Zip**에 저장합니다(Android 10 이하는 앱 전용 폴더). 폴더 통째로 묶기는 지원하지 않습니다.
+
+## 우클릭으로 빠르게 풀기
+
+압축 파일을 우클릭하고 **Pi Zip으로 빠르게 풀기**를 누르면 창을 거치지 않고 바로 풉니다. 맨 위가 폴더 하나로 감싸져 있으면 그대로 풀고, 파일이 여러 개 흩어져 있으면 압축 파일 이름의 폴더를 만들어 그 안에 풉니다. 같은 이름이 이미 있으면 덮어쓰지 않고 새 이름을 씁니다.
+
+- **Windows** — 설치하면 바로 탐색기 우클릭 메뉴에 생깁니다. Windows 11에서는 **더 많은 옵션 표시** 안에 있습니다. 무설치판은 한 번 실행한 뒤부터 나타납니다.
+- **macOS** — 앱을 한 번 실행하면 Finder 우클릭 → **빠른 동작**(또는 **서비스**)에 생깁니다.
+- **Linux** — 앱을 한 번 실행하면 Dolphin(KDE)·Nemo(Cinnamon)의 우클릭 메뉴, Nautilus(GNOME)의 우클릭 → **스크립트**에 생깁니다.
+- 설정 → "파일 관리자 우클릭 메뉴"에서 끌 수 있습니다.
 
 ## 파일 연결 (기본 앱으로 쓰기)
 
@@ -106,7 +116,7 @@ This repository hosts installers only; the source code is not published.
 | Other Linux, 64-bit | `linux-x64.AppImage` (make it executable first) or `linux-x64.tar.gz` |
 | Android 7.0 or later | `android.apk` |
 
-**Features** — own codec and `.piz` format (default level 7 is 6% smaller than 7-Zip normal; level 8 is 2% and level 9 3.7% smaller than 7-Zip ultra), recompression of JPEG, PNG, PDF, ZIP-based documents and gzip with byte-exact verification, archive-wide deduplication and similarity-based ordering, low-priority multicore work (Settings → CPU usage), reading .piz, ZIP, 7z, RAR (5.0 and 2.9–4.x), tar and gz/bz2/xz/zst/lz4 and writing all but RAR, encryption including file names (.piz, 7z), recovery records, safe extraction, in-app updates, dark mode.
+**Features** — own codec and `.piz` format (default level 7 is 6% smaller than 7-Zip normal; level 8 is 2% and level 9 3.7% smaller than 7-Zip ultra), recompression of JPEG, PNG, PDF, ZIP-based documents and gzip with byte-exact verification, archive-wide deduplication and similarity-based ordering, low-priority multicore work (Settings → CPU usage), reading .piz, ZIP, 7z, RAR (5.0 and 2.9–4.x), tar and gz/bz2/xz/zst/lz4 and writing all but RAR, encryption including file names (.piz, 7z), recovery records, safe extraction, in-app updates, right-click "Quick extract" (keeps a single top-level folder as is, otherwise wraps the files in a folder named after the archive; Windows Explorer, macOS Finder, Nautilus, Dolphin, Nemo), dark mode.
 
 **First start** — there is no code-signing certificate yet. Windows: SmartScreen → *More info* → *Run anyway* (installs per user, no admin rights). macOS: right-click the app → *Open* once. Linux: `sudo apt install ./Pi-Zip-*-linux-x64.deb`, `sudo dnf install ./Pi-Zip-*-linux-x64.rpm`, or run the AppImage (needs FUSE). Android: allow installing unknown apps, then open the APK; results are saved to Download/Pi Zip.
 
