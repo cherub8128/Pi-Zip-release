@@ -8,13 +8,15 @@
 
 **[최신 버전 내려받기](https://github.com/cherub8128/Pi-Zip-release/releases/latest)** · [Pi-Dimension](https://pi-dimension.com/)
 
+**Windows — [Microsoft Store에서 Pi Zip 설치](https://apps.microsoft.com/detail/9PNTMQKF991H)** (권장) · 경고 없이 설치되고 업데이트도 Store가 알아서 합니다. 아래 `.exe`·`.msi` 파일은 코드 서명이 없어 처음 실행할 때 SmartScreen 경고("Windows의 PC 보호")가 뜹니다. `추가 정보` → `실행`을 누르면 설치됩니다.
+
 이 저장소는 **설치 파일 배포용**입니다. 소스 코드는 공개하지 않습니다.
 
 ## 어떤 파일을 받으면 되나요?
 
 | 기기 | 선택할 파일 |
 | --- | --- |
-| Windows 10·11 (Intel·AMD 64비트) | `windows-x64-setup.exe` 권장 · MSI가 필요하면 `windows-x64.msi` · 설치 없이 쓰려면 `windows-x64-portable.exe` |
+| Windows 10·11 (Intel·AMD 64비트) | [Microsoft Store](https://apps.microsoft.com/detail/9PNTMQKF991H) 권장 · 직접 설치는 `windows-x64-setup.exe` · MSI가 필요하면 `windows-x64.msi` · 설치 없이 쓰려면 `windows-x64-portable.exe` |
 | Mac (Apple Silicon·Intel 모두) | `mac-universal.dmg` (또는 `mac-universal-adhoc.zip`) |
 | Ubuntu·Debian·Mint 등 64비트 | `linux-x64.deb` |
 | Fedora·RHEL·openSUSE 등 64비트 | `linux-x64.rpm` |
@@ -133,7 +135,7 @@ This repository hosts installers only; the source code is not published.
 
 | Device | File |
 | --- | --- |
-| Windows 10/11, Intel/AMD 64-bit | `windows-x64-setup.exe` (recommended), `windows-x64.msi` or `windows-x64-portable.exe` |
+| Windows 10/11, Intel/AMD 64-bit | [Microsoft Store](https://apps.microsoft.com/detail/9PNTMQKF991H) (recommended), `windows-x64-setup.exe`, `windows-x64.msi` or `windows-x64-portable.exe` |
 | Mac (Apple Silicon and Intel) | `mac-universal.dmg` (or `mac-universal-adhoc.zip`) |
 | Ubuntu/Debian/Mint, 64-bit | `linux-x64.deb` |
 | Fedora/RHEL/openSUSE, 64-bit | `linux-x64.rpm` |
